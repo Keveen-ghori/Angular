@@ -1,0 +1,42 @@
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-lg-12 col-xl-3">
+        <div class="logo">
+          <a href="/" title="logo"> {{ title }} </a>
+        </div>
+        <div class="mob-menu">
+          <span>
+            <i class="fa fa-bars"></i>
+          </span>
+        </div>
+      </div>
+      <div class="col-md-12 col-sm-12 col-lg-12 col-xl-9">
+        <div class="main-menu">
+          <ul class="nav">
+            <li *ngFor="let item of navbar">
+              <a
+                routerLinkActive="active"
+                [routerLink]="item.hyperLink"
+                [routerLinkActiveOptions]="{ exact: true }"
+                >{{ item.name | uppercase }}</a
+              >
+              <!-- <a routerLink="/">{{ item.name | uppercase }}</a> -->
+            </li>
+          </ul>
+          <ul class="right-nav">
+            <li>
+              <a href="/auth">
+                <fa-icon [icon]="['far', 'user']"></fa-icon> LOG IN
+              </a>
+            </li>
+            <li class="active">
+              <a href="/auth"> SIGN UP </a>
+              <!-- <fa-icon [icon]="['far', 'sign-in']"></fa-icon> -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

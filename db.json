@@ -1,0 +1,275 @@
+{
+  "navigations": [
+    {
+      "id": 1,
+      "name": "Home",
+      "sequence": 1,
+      "isActive": true,
+      "hyperLink": "/home"
+    },
+    {
+      "id": 2,
+      "name": "Service",
+      "sequence": 2,
+      "isActive": true,
+      "hyperLink": "/services"
+    },
+    {
+      "id": 3,
+      "name": "About",
+      "sequence": 3,
+      "isActive": true,
+      "hyperLink": "/about"
+    },
+    {
+      "id": 4,
+      "name": "Contact",
+      "sequence": 4,
+      "isActive": true,
+      "hyperLink": "/contact"
+    },
+    {
+      "id": 5,
+      "name": "Book Now",
+      "sequence": 5,
+      "isActive": true,
+      "hyperLink": "/book"
+    }
+  ],
+  "passengers": [
+    {
+      "id": 1,
+      "name": "John Smith ",
+      "tripDate": "2023-08-03",
+      "fromLocation": "New York, USA",
+      "toLocation": "London, UK",
+      "contactDetail": 1234567890,
+      "checkIn": true
+    },
+    {
+      "id": 2,
+      "name": "Alice Johnson",
+      "tripDate": "2023-08-04",
+      "fromLocation": "Tokyo, Japan",
+      "toLocation": "Sydney, Australia",
+      "contactDetail": 9876543210,
+      "checkIn": true
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "tripDate": "2023-08-05",
+      "fromLocation": "Berlin, Germany",
+      "toLocation": "Rome, Italy",
+      "contactDetail": 5555555555,
+      "checkIn": true,
+      "children": {
+        "name": "Sophia Brown",
+        "age": 5,
+        "gender": "Female"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "tripDate": "2023-08-06",
+      "fromLocation": "Toronto, Canada",
+      "toLocation": "Mumbai, India",
+      "contactDetail": 9998887776,
+      "checkIn": false,
+      "children": null
+    },
+    {
+      "id": 5,
+      "name": "Robert Johnson",
+      "tripDate": "2023-08-07",
+      "fromLocation": "Paris, France",
+      "toLocation": "Berlin, Germany",
+      "contactDetail": 4443332221,
+      "checkIn": true,
+      "children": {
+        "name": "Oliver Johnson",
+        "age": 12,
+        "gender": "Male"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Sophia Williams",
+      "tripDate": "2023-08-08",
+      "fromLocation": "Amsterdam, Netherlands",
+      "toLocation": "Barcelona, Spain",
+      "contactDetail": 7776665554,
+      "checkIn": false,
+      "children": null
+    },
+    {
+      "id": 6,
+      "name": "William Lee",
+      "tripDate": "2023-08-09",
+      "fromLocation": "Moscow, Russia",
+      "toLocation": "Hong Kong, China",
+      "contactDetail": 9876543210,
+      "checkIn": true,
+      "children": {
+        "name": "Aiden Lee",
+        "age": 9,
+        "gender": "Male"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Emma Miller",
+      "tripDate": "2023-08-10",
+      "fromLocation": "Singapore",
+      "toLocation": "Seoul, South Korea",
+      "contactDetail": 1234567890,
+      "checkIn": false,
+      "children": null
+    },
+    {
+      "id": 8,
+      "name": "James Wilson",
+      "tripDate": "2023-08-11",
+      "fromLocation": "Vienna, Austria",
+      "toLocation": "Zurich, Switzerland",
+      "contactDetail": 9998887776,
+      "checkIn": true,
+      "children": {
+        "name": "Noah Wilson",
+        "age": 7,
+        "gender": "Male"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Charlotte Anderson",
+      "tripDate": "2023-08-12",
+      "fromLocation": "Stockholm, Sweden",
+      "toLocation": "Oslo, Norway",
+      "contactDetail": 5555555555,
+      "checkIn": false,
+      "children": null
+    },
+    {
+      "id": 10,
+      "name": "Ava Johnson",
+      "tripDate": "2023-08-13",
+      "fromLocation": "Los Angeles, USA",
+      "toLocation": "Paris, France",
+      "contactDetail": 4443332221,
+      "checkIn": true,
+      "children": null
+    },
+    {
+      "id": 11,
+      "name": "Liam Anderson",
+      "tripDate": "2023-08-14",
+      "fromLocation": "Sydney, Australia",
+      "toLocation": "New York, USA",
+      "contactDetail": 9998887776,
+      "checkIn": true,
+      "children": {
+        "name": "Ella Anderson",
+        "age": 8,
+        "gender": "Female"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Isabella Lee",
+      "tripDate": "2023-08-15",
+      "fromLocation": "Seoul, South Korea",
+      "toLocation": "Tokyo, Japan",
+      "contactDetail": 7776665554,
+      "checkIn": false,
+      "children": null
+    },
+    {
+      "id": 13,
+      "name": "Noah Smith",
+      "tripDate": "2023-08-16",
+      "fromLocation": "Beijing, China",
+      "toLocation": "London, UK",
+      "contactDetail": 1234567890,
+      "checkIn": false,
+      "children": null
+    },
+    {
+      "id": 14,
+      "name": "Olivia Martin",
+      "tripDate": "2023-08-17",
+      "fromLocation": "Cairo, Egypt",
+      "toLocation": "Rome, Italy",
+      "contactDetail": 5555555555,
+      "checkIn": true,
+      "children": {
+        "name": "Ethan Martin",
+        "age": 10,
+        "gender": "Male"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Sophia Brown",
+      "tripDate": "2023-08-18",
+      "fromLocation": "Toronto, Canada",
+      "toLocation": "Berlin, Germany",
+      "contactDetail": 9876543210,
+      "checkIn": true,
+      "children": {
+        "name": "William Brown",
+        "age": 6,
+        "gender": "Male"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Emma Wilson",
+      "tripDate": "2023-08-19",
+      "fromLocation": "Paris, France",
+      "toLocation": "Madrid, Spain",
+      "contactDetail": 5555555555,
+      "checkIn": false,
+      "children": null
+    },
+    {
+      "id": 18,
+      "name": "Michael White",
+      "tripDate": "2023-08-20",
+      "fromLocation": "Amsterdam, Netherlands",
+      "toLocation": "Vienna, Austria",
+      "contactDetail": 9998887776,
+      "checkIn": true,
+      "children": {
+        "name": "Sophia White",
+        "age": 4,
+        "gender": "Female"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Alexander Thomas",
+      "tripDate": "2023-08-21",
+      "fromLocation": "Berlin, Germany",
+      "toLocation": "Barcelona, Spain",
+      "contactDetail": 1234567890,
+      "checkIn": false,
+      "children": null
+    },
+    {
+      "id": 20,
+      "name": "Mia Johnson",
+      "tripDate": "2023-08-22",
+      "fromLocation": "New York, USA",
+      "toLocation": "Tokyo, Japan",
+      "contactDetail": 4443332221,
+      "checkIn": true,
+      "children": {
+        "name": "Ethan Johnson",
+        "age": 11,
+        "gender": "Male"
+      }
+    }
+  ]
+}

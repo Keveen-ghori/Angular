@@ -1,0 +1,29 @@
+<p>{{ getServersStatus() }}!</p>
+<div class="m-5">
+  <!-- <button class="btn btn-warning pill" type="text" (click)="createServer()">
+    Create Server
+  </button> -->
+
+  <p [innerHTML]="server" class="text-danger"></p>
+
+  <div class="container">
+    <label class="form-label">Server Name: </label>
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Please EnterServer Name"
+      (input)="updateServer($event)"
+      [value]="serverName"
+      #name
+    />
+    <br>
+    <button
+      class="btn btn-warning pill"
+      type="text"
+      [disabled]="name.value.length == 0"
+      (click)="createServer()"
+    >
+      Create Server
+    </button>
+  </div>
+</div>
